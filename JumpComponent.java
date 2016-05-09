@@ -62,19 +62,19 @@ public class JumpComponent extends JComponent
             String key = KeyStroke.getKeyStrokeForEvent(event).toString().replace("pressed ", ""); 
             if (key.equals("DOWN"))
             {
-                moveCharacterBy(0, 1);            
+                moveCharacterBy(0, 10);            
             }
             else if (key.equals("UP"))
             {
-                moveCharacterBy(0, -1);            
+                moveCharacterBy(0, -10);            
             }
             else if (key.equals("LEFT"))
             {
-                moveCharacterBy(-1, 0);            
+                moveCharacterBy(-10, 0);            
             }
             else if (key.equals("RIGHT"))
             {
-                moveCharacterBy(1, 0);            
+                moveCharacterBy(10, 0);            
             }
         }
 
